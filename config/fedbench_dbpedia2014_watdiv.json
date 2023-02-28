@@ -1,0 +1,78 @@
+{
+  "title": "My Linked Data Fragments server",
+
+  "datasources": {
+    "drugbank": {
+      "title": "DrugBank (FedBench)",
+      "type": "HdtDatasource",
+      "description": "DrugBank with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/drugbank.hdt" }
+    },
+   "dbpedia": {
+      "title": "DBpedia (FedBench)",
+      "type": "HdtDatasource",
+      "description": "DBpedia with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/dbpedia.hdt" }
+    },
+   "dbpedia2014": {
+      "title": "DBpedia 2014",
+      "type": "HdtDatasource",
+      "description": "DBpedia 2014 with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/dbpedia2014/dbpedia2014.hdt" }
+    },
+   "dbpedia2014en": {
+      "title": "DBpedia 2014 En",
+      "type": "HdtDatasource",
+      "description": "DBpedia 2014 En with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/dbpedia2014/dbpedia2014_en_multi.hdt" }
+    },
+    "chebi": {
+      "title": "Chebi (FedBench)",
+      "type": "HdtDatasource",
+      "description": "Chebi with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/chebi.hdt" }
+    },
+    "geonames": {
+      "title": "Geonames (FedBench)",
+      "type": "HdtDatasource",
+      "description": "Geonames with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/geonames.hdt" }
+    },
+    "kegg": {
+      "title": "Kegg (FedBench)",
+      "type": "HdtDatasource",
+      "description": "Kegg with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/kegg.hdt" }
+    },
+    "linkedmdb": {
+      "title": "LinkedMDB (FedBench)",
+      "type": "HdtDatasource",
+      "description": "Linked Movie Database with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/linkedmdb.hdt" }
+    },
+    "jamendo": {
+      "title": "Jamendo (FedBench)",
+      "type": "HdtDatasource",
+      "description": "Jamendo with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/jamendo.hdt" }
+    },
+    "nytimes": {
+      "title": "NYTimes (FedBench)",
+      "type": "HdtDatasource",
+      "description": "NYTimes with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/nytimes.hdt" }
+    },
+    "swdf": {
+      "title": "SW Dog Food (FedBench)",
+      "type": "HdtDatasource",
+      "description": "SW Dog Food with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/fedbench/swdf.hdt" }
+    },
+    "watdiv": {
+      "title": "Watdiv 10M Stats",
+      "type": "HdtDatasource",
+      "description": "Watdiv 10M Stats with an HDT back-end",
+      "settings": { "file": "/home/lhe/datasets/watdiv/watdiv_10M_lars_stats.hdt" }
+    }
+  }
+}

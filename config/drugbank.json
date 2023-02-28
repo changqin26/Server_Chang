@@ -1,0 +1,12 @@
+{
+  "title": "My Linked Data Fragments server",
+
+  "datasources": {
+    "db": {
+      "title": "DrugBank (FedBench)",
+      "type": "HdtDatasource",
+      "description": "DrugBank with an HDT back-end",
+      "settings": { "file": "/home/mac/data/node/fedbench_drugbank.hdt" }
+    }
+  }
+}

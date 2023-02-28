@@ -1,0 +1,12 @@
+{
+  "title": "My Linked Data Fragments server",
+
+  "datasources": {
+    "db": {
+      "title": "WatDiv 10M",
+      "type": "HdtDatasource",
+      "description": "WatDiv 10M with HDT-stats back-end",
+      "settings": { "file": "/home/mac/data/node/watdiv-stats.10M.hdt" }
+    }
+  }
+}
